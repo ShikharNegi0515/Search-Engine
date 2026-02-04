@@ -15,7 +15,6 @@ exports.storeProduct = (req, res) => {
             metadata: {}
         };
 
-
         catalog.set(id, product);
         res.json({ productId: id });
     } catch {
