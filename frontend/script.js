@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:5000/api/v1";
+const BASE_URL = "https://search-engine-xlkv.onrender.com/api/v1";
 
 
 // Add product
