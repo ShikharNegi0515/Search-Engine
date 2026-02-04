@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Search</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>🔍 Product Search Engine</h1>
+
+
+        <!-- Add Product -->
+        <section class="card">
+            <h2>Add Product</h2>
+            <input id="name" placeholder="Product Name" />
+            <input id="description" placeholder="Description" />
+            <input id="price" type="number" placeholder="Price" />
+            <button onclick="addProduct()">Add Product</button>
+            <p id="addMsg"></p>
+        </section>
+
+
+        <!-- Search Product -->
+        <section class="card">
+            <h2>Search Products</h2>
+            <input id="search" placeholder="Search by name..." />
+            <button onclick="searchProduct()">Search</button>
+
+
+            <ul id="results"></ul>
+        </section>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
